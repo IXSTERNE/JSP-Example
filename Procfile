@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/webyes.war
+web: java $JAVA_OPTS -jar --port $PORT target/webyes.war
